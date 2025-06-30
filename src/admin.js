@@ -16,7 +16,7 @@ function myRoom(roomid){
 const roomId = roomid;
 
 const role = 'admin'; // Important to track on server
-const webSocket = new WebSocket("http://127.0.0.1:3045/");
+const webSocket = new WebSocket("https://webrtc-server-w5k1.onrender.com/");
 
 let peerConnection;
 
